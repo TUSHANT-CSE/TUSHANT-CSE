@@ -2,7 +2,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/TUSHANT-CSE/TUSHANT-CSE/main/assets/header-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/TUSHANT-CSE/TUSHANT-CSE/main/assets/header-light.svg">
-    <img src="https://raw.githubusercontent.com/TUSHANT-CSE/TUSHANT-CSE/main/assets/header-dark.svg" width="100%" alt="Tushant — Backend engineer & creative developer">
+    <img src="https://raw.githubusercontent.com/TUSHANT-CSE/TUSHANT-CSE/main/assets/header-dark.svg" width="100%" alt="Tushant — Backend engineer and creative developer, with an animated Pokéball-inspired hero and elemental companions">
   </picture>
 </p>
 
@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&pause=1500&color=FF77C8&center=true&vCenter=true&width=620&lines=Backend+engineering+%2B+creative+development;TypeScript+%7C+Node.js+%7C+PostgreSQL+%7C+Python;I+build+for+state+transitions+and+failure+paths;Real+systems.+Measured+claims.+Useful+interfaces." alt="Backend engineering, creative development and reliable state transitions">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&pause=1500&color=FF77C8&center=true&vCenter=true&width=620&lines=Code.+Catch.+Create.;Backend+engineering+%2B+creative+development;TypeScript+%7C+Node.js+%7C+PostgreSQL+%7C+Python;Real+systems.+Measured+claims.+Playful+interfaces." alt="Backend engineering, creative development and reliable state transitions">
 </p>
 
 ## About me
@@ -26,6 +26,7 @@ I learn by shipping complete projects—from database constraints and API contra
 - Exploring **3D web experiences** with WebGL, Canvas, and Three.js
 - Studying **data structures, algorithms, and machine learning**
 - Interested in backend engineering, developer tools, observability, and applied AI
+- Off-screen: Pokémon-inspired worlds, games, and playful interaction design
 
 ## Selected work
 
