@@ -14,62 +14,46 @@
 
 ## About me
 
-I'm **Tushant**, a computer science student in India building systems across the full stack. I care about the parts that are easy to skip: state transitions, failure paths, data integrity, and whether the interface honestly reflects what the data proves.
+I'm **Tushant**, a computer science student in India focused on backend engineering and creative development. I care about reliable state transitions, failure paths, data integrity, and interfaces that communicate clearly.
 
-I learn by shipping complete projects—from database constraints and API contracts to polished, interactive frontends.
+I learn by shipping end-to-end projects—from database constraints and APIs to polished interactive frontends.
 
-- Building backend and fintech systems with **TypeScript, Node.js, Fastify, and PostgreSQL**
-- Exploring **3D web experiences** with WebGL, Canvas, and Three.js
-- Studying **data structures, algorithms, and machine learning**
-- Interested in backend engineering, developer tools, observability, and applied AI
-- Off-screen: Pokémon-inspired worlds, games, and playful interaction design
+- **Backend & fintech:** TypeScript, Node.js, Fastify, PostgreSQL
+- **Creative frontend:** React, Three.js, WebGL, Canvas
+- **Currently exploring:** developer tools, observability, and applied AI
 
 ## Selected work
 
-### [Pulse Signal Studio](https://github.com/TUSHANT-CSE/pulse) — a local-first uptime console
+### [Pulse Signal Studio](https://github.com/TUSHANT-CSE/pulse) — local-first uptime monitoring
 
-[**Open live demo →**](https://tushant-cse.github.io/pulse/) &nbsp;·&nbsp; [Source](https://github.com/TUSHANT-CSE/pulse) &nbsp;·&nbsp; **69 passing tests**
+[**Live demo →**](https://tushant-cse.github.io/pulse/) &nbsp;·&nbsp; [Source](https://github.com/TUSHANT-CSE/pulse) &nbsp;·&nbsp; **69 passing tests**
 
-A 3D-animated monitoring console with real public HTTP checks, SQLite persistence, incident timelines, and a separate browser-only demo for safe portfolio hosting.
+Scheduled HTTP monitoring with SQLite persistence, incident timelines, SSE updates, and an accessible WebGL dashboard. The hosted demo uses synthetic data only; the real backend stays local.
 
-- Pinned DNS/socket transport, redirect revalidation, bounded retries, and shared concurrency
-- Two failed runs open an incident; two successful runs resolve it
-- Custom WebGL sculpture with reduced-motion and Canvas2D fallback
-- Hosted demo uses **synthetic data only**; the real monitoring backend stays local
-
-| | Pulse | PayProof |
-| :--- | :--- | :--- |
-| **Focus** | Observability & uptime | Reconciliation & financial data |
-| **Backend** | Native TypeScript HTTP server | TypeScript · Fastify · PostgreSQL/PGlite |
-| **Engineering** | Retry/cancellation races, URL safety, incident state machine | Idempotent imports, partial unique index, signed webhook outbox |
-| **Result** | Scheduled checks, persistent histories, status API, accessible 3D dashboard | A payment becomes `RECONCILED` only when UTR and amount match the statement |
+- Pinned transport, redirect validation, bounded retries, and cancellation-safe concurrency
+- Incident state machine with reduced-motion and Canvas2D fallback
 
 ### [PayProof](https://github.com/TUSHANT-CSE/payproof) — reconciliation-first UPI collections
 
-A bank alert is evidence. A bank statement is truth. PayProof only marks a payment `RECONCILED` after its UTR and amount match an imported statement.
+Marks a payment `RECONCILED` only when its UTR and amount match an imported bank statement.
 
-`ACTIVE → AWAITING_VERIFICATION → OBSERVED → RECONCILED`
-
-- One live payment slot per account, enforced by a partial unique index
-- Late alerts enter a review queue instead of becoming silent successes
-- Double-entry ledger, idempotent statement import, and HMAC-signed webhook outbox
+- Partial unique index and review queue for late or duplicate alerts
+- Double-entry ledger, idempotent imports, and HMAC-signed webhook outbox
 - **TypeScript · Fastify · PostgreSQL · PGlite · 29 tests**
 
 ### [Tushant Portfolio](https://github.com/TUSHANT-CSE/tushant-portfolio)
 
-A privacy-first interactive portfolio with **Three.js, Vite, and vanilla JavaScript**—built to make creative presentation and smooth performance work together.
+Privacy-first interactive portfolio built with **Three.js, Vite, and vanilla JavaScript**.
 
-[Browse the repository →](https://github.com/TUSHANT-CSE/tushant-portfolio)
+[Browse repository →](https://github.com/TUSHANT-CSE/tushant-portfolio)
 
 ### More work
 
-| Project | What it does | Stack |
+| Project | Focus | Stack |
 | :--- | :--- | :--- |
-| [Urban Pulse](https://github.com/TUSHANT-CSE/Capstone-pro-web-development) | Smart-city dashboard for civic complaints, analytics, and service monitoring | React, Redux Toolkit, Tailwind CSS |
-| [Student Management API](https://github.com/TUSHANT-CSE/webdevassgn3) | CRUD REST API for student records, with a Postman collection | Node.js, Express |
-| [Python Coursework](https://github.com/TUSHANT-CSE/PYTHON) | Gradebook, library manager, weather data visualiser, and calorie tracker | Python, Jupyter |
-| [Winter Gear Store](https://github.com/TUSHANT-CSE/CAPSTONE-1) | Responsive e-commerce sale landing page | HTML, CSS |
-| [Java Quiz](https://github.com/TUSHANT-CSE/JAVA-QUIZ) | Browser-based quiz app | HTML, CSS, JavaScript |
+| [Urban Pulse](https://github.com/TUSHANT-CSE/Capstone-pro-web-development) | Smart-city complaints, analytics, and service monitoring | React, Redux Toolkit, Tailwind CSS |
+| [Student Management API](https://github.com/TUSHANT-CSE/webdevassgn3) | CRUD REST API with a Postman collection | Node.js, Express |
+| [Python Coursework](https://github.com/TUSHANT-CSE/PYTHON) | Gradebook, library manager, and data visualisation | Python, Jupyter |
 
 ## Stack
 
