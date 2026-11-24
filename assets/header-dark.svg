@@ -1,28 +1,43 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="420" viewBox="0 0 1600 420" role="img" aria-labelledby="title desc">
   <title id="title">Tushant — Backend engineer and creative developer</title>
-  <desc id="desc">Animated lime and lavender signal paths orbit the text Backend engineer and creative developer.</desc>
+  <desc id="desc">Animated cyan, violet, pink and amber signal paths orbit the text Backend engineer and creative developer.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0B0E13"/>
-      <stop offset=".5" stop-color="#10131B"/>
-      <stop offset="1" stop-color="#090B0F"/>
+      <stop offset="0" stop-color="#090D1C"/>
+      <stop offset=".38" stop-color="#14102B"/>
+      <stop offset=".72" stop-color="#102338"/>
+      <stop offset="1" stop-color="#080C19"/>
     </linearGradient>
-    <linearGradient id="text" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#F5F7FA"/>
-      <stop offset="1" stop-color="#D8DEE9"/>
+    <radialGradient id="nebula" cx=".77" cy=".38" r=".58">
+      <stop offset="0" stop-color="#FF5EA8" stop-opacity=".28"/>
+      <stop offset=".34" stop-color="#A855F7" stop-opacity=".19"/>
+      <stop offset=".68" stop-color="#22D3EE" stop-opacity=".1"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="text" x1="0" y1="0" x2="1" y2=".4">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset=".52" stop-color="#FFE7F7"/>
+      <stop offset="1" stop-color="#B8F5FF"/>
     </linearGradient>
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#D5FF70"/>
-      <stop offset="1" stop-color="#6CE7C3"/>
+      <stop offset="0" stop-color="#FF5EA8"/>
+      <stop offset=".48" stop-color="#A855F7"/>
+      <stop offset="1" stop-color="#22D3EE"/>
     </linearGradient>
     <linearGradient id="orbit" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#ADA0FF" stop-opacity=".85"/>
-      <stop offset=".5" stop-color="#ADA0FF" stop-opacity=".12"/>
-      <stop offset="1" stop-color="#D5FF70" stop-opacity=".8"/>
+      <stop offset="0" stop-color="#22D3EE"/>
+      <stop offset=".36" stop-color="#818CF8"/>
+      <stop offset=".7" stop-color="#F472B6"/>
+      <stop offset="1" stop-color="#FBBF24"/>
+    </linearGradient>
+    <linearGradient id="core" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#22D3EE"/>
+      <stop offset=".5" stop-color="#818CF8"/>
+      <stop offset="1" stop-color="#FF5EA8"/>
     </linearGradient>
     <radialGradient id="glow">
-      <stop offset="0" stop-color="#ADA0FF" stop-opacity=".18"/>
-      <stop offset="1" stop-color="#ADA0FF" stop-opacity="0"/>
+      <stop offset="0" stop-color="#A855F7" stop-opacity=".32"/>
+      <stop offset="1" stop-color="#A855F7" stop-opacity="0"/>
     </radialGradient>
     <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
       <path d="M48 0H0V48" fill="none" stroke="#FFFFFF" stroke-opacity=".025" stroke-width="1"/>
@@ -31,42 +46,56 @@
     <style>
       .mono{font-family:'SFMono-Regular',Consolas,'Liberation Mono',monospace}
       .sans{font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif}
-      .pulse{animation:pulse 4s ease-in-out infinite}
-      .draw{stroke-dasharray:540;stroke-dashoffset:540;animation:draw 6s ease-in-out infinite}
-      .satellite{offset-path:path('M 1070 208 C 1180 60 1430 80 1500 235 C 1560 370 1400 385 1300 315 C 1180 225 1090 370 1120 330');animation:orbit 18s linear infinite}
+      .pulse{animation:pulse 3s ease-in-out infinite}
+      .draw{stroke-dasharray:540;stroke-dashoffset:540;animation:draw 5s ease-in-out infinite}
+      .ring-orbit{transform-origin:1330px 210px;animation:spin 22s linear infinite}
+      .ring-orbit.reverse{transform-origin:1330px 210px;animation-duration:15s;animation-direction:reverse}
+      .satellite{offset-path:path('M 1070 208 C 1180 60 1430 80 1500 235 C 1560 370 1400 385 1300 315 C 1180 225 1090 370 1120 330');animation:orbit 10s linear infinite}
+      .satellite.secondary{animation-duration:14s;animation-direction:reverse;fill:#22D3EE}
       @keyframes draw{0%,15%{stroke-dashoffset:540}55%,80%{stroke-dashoffset:0}100%{stroke-dashoffset:-540}}
       @keyframes pulse{0%,100%{opacity:.55;r:4}50%{opacity:1;r:6}}
       @keyframes orbit{to{offset-distance:100%}}
-      @media(prefers-reduced-motion:reduce){.pulse,.draw,.satellite{animation:none}.draw{stroke-dashoffset:0}.satellite{offset-distance:34%}}
+      @keyframes spin{to{transform:rotate(360deg)}}
+      @media(prefers-reduced-motion:reduce){.pulse,.draw,.satellite,.ring-orbit{animation:none}.draw{stroke-dashoffset:0}.satellite{offset-distance:34%}}
     </style>
   </defs>
   <rect width="1600" height="420" rx="28" fill="url(#bg)"/>
   <rect width="1600" height="420" rx="28" fill="url(#grid)"/>
+  <rect width="1600" height="420" rx="28" fill="url(#nebula)"/>
   <ellipse cx="1340" cy="210" rx="420" ry="300" fill="url(#glow)"/>
   <path d="M0 354C170 296 292 382 440 352S694 284 832 326" fill="none" stroke="#D5FF70" stroke-opacity=".08" stroke-width="26" filter="url(#blur)"/>
   <g transform="translate(90 64)">
-    <text x="0" y="35" fill="#D5FF70" font-size="15" font-weight="700" letter-spacing="5" class="mono">SYSTEMS / INTERFACES / IDEAS</text>
+    <text x="0" y="35" fill="#FF7CBB" font-size="15" font-weight="700" letter-spacing="5" class="mono">SYSTEMS / INTERFACES / IDEAS</text>
     <text x="-4" y="142" fill="url(#text)" font-size="116" font-weight="750" letter-spacing="-6" class="sans">TUSHANT</text>
     <rect x="0" y="176" width="54" height="5" rx="2.5" fill="url(#accent)"/>
-    <text x="73" y="185" fill="#ADA0FF" font-size="20" font-weight="500" letter-spacing="1.5" class="mono">BACKEND ENGINEER + CREATIVE DEVELOPER</text>
+    <text x="73" y="185" fill="#67E8F9" font-size="20" font-weight="500" letter-spacing="1.5" class="mono">BACKEND ENGINEER + CREATIVE DEVELOPER</text>
     <text x="0" y="255" fill="#A8B3C3" font-size="23" class="sans">Reliable systems. Thoughtful interfaces. Real results.</text>
     <text x="0" y="302" fill="#697586" font-size="16" class="mono">INDIA / COMPUTER SCIENCE / OPEN TO BUILD &amp; LEARN</text>
   </g>
   <g fill="none" stroke="url(#orbit)">
     <path d="M1070 208C1180 60 1430 80 1500 235C1560 370 1400 385 1300 315C1180 225 1090 370 1120 330" stroke-width="1.5" opacity=".35" class="draw"/>
-    <ellipse cx="1330" cy="210" rx="175" ry="102" transform="rotate(-22 1330 210)" stroke-width="1.5" opacity=".5"/>
-    <ellipse cx="1330" cy="210" rx="124" ry="124" stroke-width="1" stroke-dasharray="3 8" opacity=".3"/>
+    <g class="ring-orbit">
+      <ellipse cx="1330" cy="210" rx="175" ry="102" transform="rotate(-22 1330 210)" stroke-width="2" opacity=".7"/>
+      <circle cx="1330" cy="108" r="6" fill="#22D3EE" stroke="#E6FCFF" stroke-width="1.5"/>
+      <circle cx="1496" cy="244" r="5" fill="#FF5EA8" stroke="#FFE8F5" stroke-width="1"/>
+    </g>
+    <g class="ring-orbit reverse">
+      <ellipse cx="1330" cy="210" rx="124" ry="124" stroke-width="2" stroke-dasharray="4 9" opacity=".55"/>
+      <circle cx="1330" cy="334" r="7" fill="#FBBF24" stroke="#FFF4CC" stroke-width="1.5"/>
+    </g>
     <ellipse cx="1330" cy="210" rx="72" ry="72" stroke-width="1" opacity=".2"/>
   </g>
-  <circle cx="1330" cy="210" r="44" fill="#D5FF70" fill-opacity=".04" stroke="#D5FF70" stroke-opacity=".15"/>
-  <path d="M1300 210h15l8-19 13 40 10-21h16" fill="none" stroke="url(#accent)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-  <circle class="pulse" cx="1330" cy="210" r="6" fill="#D5FF70"/>
-  <circle class="satellite" r="5" fill="#D5FF70"/>
-  <g fill="#ADA0FF">
-    <circle cx="1171" cy="137" r="3" opacity=".8"/>
-    <circle cx="1460" cy="289" r="3" opacity=".8"/>
-    <circle cx="1490" cy="167" r="2" opacity=".6"/>
-    <circle cx="1232" cy="301" r="2" opacity=".6"/>
+  <circle cx="1330" cy="210" r="55" fill="#A855F7" fill-opacity=".08" stroke="#A855F7" stroke-opacity=".3" stroke-width="2"/>
+  <circle cx="1330" cy="210" r="44" fill="#22D3EE" fill-opacity=".06" stroke="#22D3EE" stroke-opacity=".24"/>
+  <path d="M1300 210h15l8-19 13 40 10-21h16" fill="none" stroke="url(#core)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle class="pulse" cx="1330" cy="210" r="7" fill="#FF5EA8"/>
+  <circle class="satellite" r="6" fill="#FBBF24" stroke="#FFF4CC" stroke-width="1"/>
+  <circle class="satellite secondary" r="5" fill="#22D3EE" stroke="#D9FAFF" stroke-width="1"/>
+  <g>
+    <circle cx="1171" cy="137" r="4" fill="#22D3EE" opacity=".9"/>
+    <circle cx="1460" cy="289" r="4" fill="#FF5EA8" opacity=".9"/>
+    <circle cx="1490" cy="167" r="3" fill="#FBBF24" opacity=".8"/>
+    <circle cx="1232" cy="301" r="3" fill="#818CF8" opacity=".8"/>
   </g>
   <text x="1500" y="382" text-anchor="end" fill="#697586" font-size="12" letter-spacing="2" class="mono">SIGNAL / ACTIVE</text>
   <rect x="1" y="1" width="1598" height="418" rx="27" fill="none" stroke="#FFFFFF" stroke-opacity=".07"/>

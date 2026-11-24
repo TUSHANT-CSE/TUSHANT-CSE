@@ -7,13 +7,13 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/TUSHANT-CSE/pulse"><img src="https://img.shields.io/badge/FEATURED-Pulse%20Signal%20Studio-D5FF70?style=for-the-badge&logo=activity&logoColor=10131A&labelColor=141419" alt="Featured project: Pulse Signal Studio"></a>
-  <a href="https://tushant-cse.github.io/pulse/"><img src="https://img.shields.io/badge/LIVE%20DEMO-Try%20it-ADA0FF?style=for-the-badge&logo=vercel&logoColor=white&labelColor=141419" alt="Open the Pulse live demo"></a>
-  <a href="https://github.com/TUSHANT-CSE/payproof"><img src="https://img.shields.io/badge/FINANCIAL%20SYSTEMS-PayProof-6CE7C3?style=for-the-badge&logo=github&logoColor=10131A&labelColor=141419" alt="Financial systems project: PayProof"></a>
+  <a href="https://github.com/TUSHANT-CSE/pulse"><img src="https://img.shields.io/badge/FEATURED-Pulse%20Signal%20Studio-FF77C8?style=for-the-badge&logo=activity&logoColor=140A18&labelColor=161124" alt="Featured project: Pulse Signal Studio"></a>
+  <a href="https://tushant-cse.github.io/pulse/"><img src="https://img.shields.io/badge/LIVE%20DEMO-Try%20it-67E8F9?style=for-the-badge&logo=vercel&logoColor=08171B&labelColor=161124" alt="Open the Pulse live demo"></a>
+  <a href="https://github.com/TUSHANT-CSE/payproof"><img src="https://img.shields.io/badge/FINANCIAL%20SYSTEMS-PayProof-C4B5FD?style=for-the-badge&logo=github&logoColor=140A18&labelColor=161124" alt="Financial systems project: PayProof"></a>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&pause=1500&color=D5FF70&center=true&vCenter=true&width=620&lines=Backend+engineering+%2B+creative+development;TypeScript+%7C+Node.js+%7C+PostgreSQL+%7C+Python;I+build+for+state+transitions+and+failure+paths;Real+systems.+Measured+claims.+Useful+interfaces." alt="Backend engineering, creative development and reliable state transitions">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&pause=1500&color=FF77C8&center=true&vCenter=true&width=620&lines=Backend+engineering+%2B+creative+development;TypeScript+%7C+Node.js+%7C+PostgreSQL+%7C+Python;I+build+for+state+transitions+and+failure+paths;Real+systems.+Measured+claims.+Useful+interfaces." alt="Backend engineering, creative development and reliable state transitions">
 </p>
 
 ## About me
@@ -88,21 +88,21 @@ A privacy-first interactive portfolio with **Three.js, Vite, and vanilla JavaScr
 ## GitHub at a glance
 
 <p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=TUSHANT-CSE&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&bg_color=0D1117&title_color=D5FF70&icon_color=ADA0FF&text_color=C9D1D9&cache_seconds=86400" alt="Tushant's GitHub statistics">
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TUSHANT-CSE&layout=compact&langs_count=8&hide_border=true&bg_color=0D1117&title_color=D5FF70&text_color=C9D1D9&cache_seconds=86400" alt="Tushant's most-used programming languages">
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=TUSHANT-CSE&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&bg_color=0D1020&title_color=FF77C8&icon_color=67E8F9&text_color=D8E4F0&cache_seconds=86400" alt="Tushant's GitHub statistics">
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TUSHANT-CSE&layout=compact&langs_count=8&hide_border=true&bg_color=0D1020&title_color=67E8F9&text_color=D8E4F0&cache_seconds=86400" alt="Tushant's most-used programming languages">
 </p>
 
 <p align="center">
-  <img width="100%" src="https://raw.githubusercontent.com/TUSHANT-CSE/TUSHANT-CSE/main/assets/contribution-wave.svg" alt="Animated line tracing a contribution graph in lime and lavender">
+  <img width="100%" src="https://raw.githubusercontent.com/TUSHANT-CSE/TUSHANT-CSE/main/assets/contribution-wave.svg" alt="Animated line tracing a contribution graph in cyan, violet, pink and amber">
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=TUSHANT-CSE&hide_border=true&background=0D1117&ring=D5FF70&fire=ADA0FF&currStreakLabel=D5FF70&sideLabels=C9D1D9&dates=8B949E&cache_seconds=86400" alt="GitHub contribution streak">
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=TUSHANT-CSE&hide_border=true&background=0D1020&ring=67E8F9&fire=FF77C8&currStreakLabel=67E8F9&sideLabels=D8E4F0&dates=94A3B8&cache_seconds=86400" alt="GitHub contribution streak">
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=TUSHANT-CSE&style=for-the-badge&color=141419&label=PROFILE+VIEWS&labelColor=141419" alt="Profile view count">
-  <a href="https://github.com/TUSHANT-CSE?tab=repositories"><img src="https://img.shields.io/badge/Explore-all%20repositories-ADA0FF?style=for-the-badge&labelColor=141419" alt="Browse all Tushant's public repositories"></a>
+  <img src="https://komarev.com/ghpvc/?username=TUSHANT-CSE&style=for-the-badge&color=FF77C8&label=PROFILE+VIEWS&labelColor=161124" alt="Profile view count">
+  <a href="https://github.com/TUSHANT-CSE?tab=repositories"><img src="https://img.shields.io/badge/Explore-all%20repositories-C4B5FD?style=for-the-badge&labelColor=161124" alt="Browse all Tushant's public repositories"></a>
 </p>
 
 <details>
