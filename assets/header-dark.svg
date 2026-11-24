@@ -1,195 +1,233 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="520" viewBox="0 0 1600 520" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="560" viewBox="0 0 1600 560" role="img" aria-labelledby="title desc">
   <title id="title">Tushant — code, catch, create</title>
-  <desc id="desc">A large glossy Pokéball-inspired energy sphere floats beside orbiting electric, leaf and fire creature silhouettes.</desc>
+  <desc id="desc">A cinematic metallic Pokéball-inspired energy sphere with glass reflections, orbital light, and atmospheric depth.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#0B0F24"/>
-      <stop offset=".36" stop-color="#1D103C"/>
-      <stop offset=".68" stop-color="#0F2D41"/>
-      <stop offset="1" stop-color="#080D1C"/>
+      <stop stop-color="#03050C"/>
+      <stop offset=".48" stop-color="#080B1B"/>
+      <stop offset="1" stop-color="#02040A"/>
     </linearGradient>
-    <radialGradient id="nebula" cx=".76" cy=".48" r=".55">
-      <stop stop-color="#22D3EE" stop-opacity=".2"/>
-      <stop offset=".34" stop-color="#8B5CF6" stop-opacity=".22"/>
-      <stop offset=".67" stop-color="#FF4D8D" stop-opacity=".16"/>
-      <stop offset="1" stop-color="#0B0F24" stop-opacity="0"/>
+    <radialGradient id="nebula" cx=".76" cy=".42" r=".62">
+      <stop stop-color="#FF4D8D" stop-opacity=".16"/>
+      <stop offset=".34" stop-color="#8B5CF6" stop-opacity=".11"/>
+      <stop offset=".68" stop-color="#22D3EE" stop-opacity=".07"/>
+      <stop offset="1" stop-color="#03050C" stop-opacity="0"/>
     </radialGradient>
-    <linearGradient id="title" x1="0" y1="0" x2="1" y2=".4">
+    <radialGradient id="ambient" cx=".5" cy=".46" r=".5">
+      <stop stop-color="#8B5CF6" stop-opacity=".2"/>
+      <stop offset=".48" stop-color="#22D3EE" stop-opacity=".07"/>
+      <stop offset="1" stop-color="#03050C" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="titleGradient" x1="0" y1="0" x2="1" y2=".35">
       <stop stop-color="#FFFFFF"/>
-      <stop offset=".48" stop-color="#FFE4F5"/>
-      <stop offset="1" stop-color="#B9F6FF"/>
+      <stop offset=".5" stop-color="#FFD8E9"/>
+      <stop offset="1" stop-color="#A5F2FF"/>
     </linearGradient>
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
       <stop stop-color="#FF4D8D"/>
-      <stop offset=".45" stop-color="#A78BFA"/>
+      <stop offset=".5" stop-color="#A78BFA"/>
       <stop offset="1" stop-color="#22D3EE"/>
     </linearGradient>
-    <linearGradient id="orbit" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#22D3EE"/>
-      <stop offset=".33" stop-color="#818CF8"/>
-      <stop offset=".66" stop-color="#FF4D8D"/>
+    <linearGradient id="rim" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#67E8F9"/>
+      <stop offset=".38" stop-color="#818CF8"/>
+      <stop offset=".7" stop-color="#FF5EA8"/>
       <stop offset="1" stop-color="#FBBF24"/>
     </linearGradient>
-    <radialGradient id="topBall" cx=".35" cy=".18" r=".9">
+    <radialGradient id="shell" cx=".3" cy=".18" r=".9">
+      <stop stop-color="#D9E8F7"/>
+      <stop offset=".14" stop-color="#65758F"/>
+      <stop offset=".5" stop-color="#172038"/>
+      <stop offset=".82" stop-color="#070B16"/>
+      <stop offset="1" stop-color="#02040A"/>
+    </radialGradient>
+    <radialGradient id="topMetal" cx=".3" cy=".12" r=".94">
+      <stop stop-color="#FFF4F7"/>
+      <stop offset=".13" stop-color="#FF9DB5"/>
+      <stop offset=".36" stop-color="#F43F72"/>
+      <stop offset=".66" stop-color="#B80D45"/>
+      <stop offset=".88" stop-color="#530820"/>
+      <stop offset="1" stop-color="#1B030D"/>
+    </radialGradient>
+    <radialGradient id="bottomMetal" cx=".32" cy=".08" r=".96">
       <stop stop-color="#FFFFFF"/>
-      <stop offset=".16" stop-color="#FFE6F4"/>
-      <stop offset=".47" stop-color="#FF507F"/>
-      <stop offset=".82" stop-color="#D92769"/>
-      <stop offset="1" stop-color="#8B1749"/>
+      <stop offset=".2" stop-color="#EAF8FF"/>
+      <stop offset=".52" stop-color="#A9C8DA"/>
+      <stop offset=".78" stop-color="#536E84"/>
+      <stop offset="1" stop-color="#172638"/>
     </radialGradient>
-    <radialGradient id="bottomBall" cx=".35" cy=".72" r=".82">
-      <stop stop-color="#F8FEFF"/>
-      <stop offset=".55" stop-color="#D9F8FF"/>
-      <stop offset="1" stop-color="#7AB4CA"/>
+    <linearGradient id="band" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#F5FAFF"/>
+      <stop offset=".12" stop-color="#70849E"/>
+      <stop offset=".3" stop-color="#111C2E"/>
+      <stop offset=".68" stop-color="#030711"/>
+      <stop offset=".88" stop-color="#435A73"/>
+      <stop offset="1" stop-color="#D7E8F5"/>
+    </linearGradient>
+    <radialGradient id="lens" cx=".32" cy=".22" r=".82">
+      <stop stop-color="#F4FEFF"/>
+      <stop offset=".09" stop-color="#A5F7FF"/>
+      <stop offset=".27" stop-color="#2B617F"/>
+      <stop offset=".56" stop-color="#101C35"/>
+      <stop offset=".82" stop-color="#030611"/>
+      <stop offset="1" stop-color="#010208"/>
     </radialGradient>
-    <radialGradient id="center" cx=".33" cy=".25" r=".8">
-      <stop stop-color="#FFFFFF"/>
-      <stop offset=".42" stop-color="#17243A"/>
-      <stop offset="1" stop-color="#050916"/>
-    </radialGradient>
-    <radialGradient id="glow">
-      <stop stop-color="#A855F7" stop-opacity=".4"/>
-      <stop offset=".55" stop-color="#22D3EE" stop-opacity=".14"/>
+    <radialGradient id="orbAura" cx=".5" cy=".5" r=".5">
+      <stop stop-color="#FF4D8D" stop-opacity=".2"/>
+      <stop offset=".48" stop-color="#8B5CF6" stop-opacity=".1"/>
+      <stop offset=".76" stop-color="#22D3EE" stop-opacity=".06"/>
       <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
     </radialGradient>
-    <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#8CF5B5"/>
-      <stop offset="1" stop-color="#1C9B73"/>
+    <radialGradient id="floorGlow" cx=".5" cy=".5" r=".5">
+      <stop stop-color="#22D3EE" stop-opacity=".16"/>
+      <stop offset=".5" stop-color="#8B5CF6" stop-opacity=".06"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#FFFFFF" stop-opacity=".42"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="electric" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#FFF08A"/>
-      <stop offset="1" stop-color="#FF9E1B"/>
-    </linearGradient>
-    <linearGradient id="flame" x1="0" y1="1" x2=".5" y2="0">
-      <stop stop-color="#FF4D4D"/>
-      <stop offset=".55" stop-color="#FF8A24"/>
-      <stop offset="1" stop-color="#FFE36B"/>
-    </linearGradient>
-    <filter id="softGlow" x="-80%" y="-80%" width="260%" height="260%">
-      <feGaussianBlur stdDeviation="14" result="blur"/>
+    <pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse">
+      <path d="M52 0H0V52" fill="none" stroke="#FFFFFF" stroke-opacity=".025"/>
+    </pattern>
+    <filter id="shadow" x="-60%" y="-60%" width="220%" height="240%">
+      <feDropShadow dx="0" dy="34" stdDeviation="30" flood-color="#000000" flood-opacity=".72"/>
+    </filter>
+    <filter id="blurLarge" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="34"/>
+    </filter>
+    <filter id="blurMedium" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+    <filter id="blurSmall" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <filter id="glow" x="-120%" y="-120%" width="340%" height="340%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
       <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <filter id="shadow" x="-40%" y="-40%" width="180%" height="200%">
-      <feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#030713" flood-opacity=".6"/>
-    </filter>
-    <filter id="ballShadow" x="-60%" y="-60%" width="220%" height="220%">
-      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#22D3EE" flood-opacity=".26"/>
-    </filter>
-    <clipPath id="ballClip"><circle cx="1320" cy="260" r="142"/></clipPath>
-    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
-      <path d="M48 0H0V48" fill="none" stroke="#FFFFFF" stroke-opacity=".035"/>
-    </pattern>
+    <clipPath id="orbClip"><circle cx="1290" cy="280" r="194"/></clipPath>
     <style>
       .mono{font-family:'SFMono-Regular',Consolas,'Liberation Mono',monospace}
       .sans{font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif}
-      .scene{transform-origin:1320px 260px;animation:float 6s ease-in-out infinite}
-      .buddy{transform-box:fill-box;transform-origin:center;animation:buddy 4.8s ease-in-out infinite}
-      .buddy.leaf{animation-delay:-1.6s}.buddy.flame{animation-delay:-3.2s}
-      .spin{transform-origin:1320px 260px;animation:spin 26s linear infinite}
-      .spin-fast{transform-origin:1320px 260px;animation:spin 15s linear infinite reverse}
-      .comet{offset-path:path('M 1135 260 C 1135 100 1490 72 1520 250 C 1548 418 1355 452 1198 350 C 1068 262 1160 152 1250 155');animation:comet 11s linear infinite}
-      .spark{transform-box:fill-box;transform-origin:center;animation:spark 3s ease-in-out infinite}
-      .spark.two{animation-delay:.8s}.spark.three{animation-delay:1.6s}
-      .shine{animation:shine 5s ease-in-out infinite}
-      @keyframes float{0%,100%{transform:translateY(0) rotate(-1deg)}50%{transform:translateY(-12px) rotate(1deg)}}
-      @keyframes buddy{0%,100%{transform:translateY(0) rotate(-2deg)}50%{transform:translateY(-8px) rotate(2deg)}}
+      .aurora{animation:aurora 14s ease-in-out infinite}
+      .orb-float{transform-origin:1290px 280px;animation:orbFloat 7s ease-in-out infinite}
+      .orbit{transform-origin:1290px 280px;animation:spin 30s linear infinite}
+      .orbit-fast{transform-origin:1290px 280px;animation:spin 19s linear infinite reverse}
+      .sheen{animation:sheen 7s ease-in-out infinite}
+      .core-pulse{transform-box:fill-box;transform-origin:center;animation:corePulse 3.6s ease-in-out infinite}
+      .comet{offset-path:path('M 1065 302 C 1050 160 1290 92 1485 182 C 1630 248 1555 405 1390 410 C 1220 416 1105 350 1160 268');animation:comet 10s linear infinite}
+      .bokeh{transform-box:fill-box;transform-origin:center;animation:bokeh 8s ease-in-out infinite;animation-delay:var(--delay,0s)}
+      .glint{transform-box:fill-box;transform-origin:center;animation:glint 4s ease-in-out infinite;animation-delay:var(--delay,0s)}
+      @keyframes aurora{0%,100%{transform:translate(0,0) scale(1);opacity:.55}50%{transform:translate(24px,-14px) scale(1.06);opacity:.85}}
+      @keyframes orbFloat{0%,100%{transform:translateY(0) scale(1)}50%{transform:translateY(-9px) scale(1.008)}}
       @keyframes spin{to{transform:rotate(360deg)}}
+      @keyframes sheen{0%,18%{transform:translateX(-150px);opacity:0}38%{opacity:.5}58%,100%{transform:translateX(390px);opacity:0}}
+      @keyframes corePulse{0%,100%{transform:scale(.88);opacity:.08}50%{transform:scale(1.16);opacity:.24}}
       @keyframes comet{to{offset-distance:100%}}
-      @keyframes shine{0%,100%{opacity:.18}50%{opacity:.48}}
-      @keyframes spark{0%,100%{opacity:.2;transform:scale(.7)}50%{opacity:1;transform:scale(1.2)}}
-      @media(prefers-reduced-motion:reduce){.scene,.buddy,.spin,.spin-fast,.comet,.spark,.shine{animation:none}.comet{offset-distance:32%}.spark{opacity:.8}}
+      @keyframes bokeh{0%,100%{transform:translateY(5px) scale(.88);opacity:.24}50%{transform:translateY(-13px) scale(1.08);opacity:.72}}
+      @keyframes glint{0%,100%{transform:scale(.65) rotate(0);opacity:.25}50%{transform:scale(1.15) rotate(45deg);opacity:.9}}
+      @media(prefers-reduced-motion:reduce){.aurora,.orb-float,.orbit,.orbit-fast,.sheen,.core-pulse,.comet,.bokeh,.glint{animation:none}.comet{offset-distance:36%}.bokeh{opacity:.5}.sheen{opacity:0}.glint{opacity:.7}}
     </style>
   </defs>
-  <rect width="1600" height="520" rx="30" fill="url(#bg)"/>
-  <rect width="1600" height="520" rx="30" fill="url(#grid)"/>
-  <rect width="1600" height="520" rx="30" fill="url(#nebula)"/>
-  <ellipse cx="1320" cy="260" rx="390" ry="310" fill="url(#glow)"/>
-  <g opacity=".65">
-    <path d="M0 405C210 354 336 443 527 409S790 350 971 396" fill="none" stroke="#22D3EE" stroke-opacity=".12" stroke-width="2"/>
-    <path d="M0 434C196 396 356 469 547 438S806 386 1000 421" fill="none" stroke="#A78BFA" stroke-opacity=".12" stroke-width="2"/>
+  <rect width="1600" height="560" rx="32" fill="url(#bg)"/>
+  <rect width="1600" height="560" rx="32" fill="url(#grid)"/>
+  <rect width="1600" height="560" rx="32" fill="url(#nebula)"/>
+  <g class="aurora">
+    <ellipse cx="1290" cy="255" rx="380" ry="270" fill="url(#ambient)"/>
+    <ellipse cx="1435" cy="120" rx="260" ry="130" fill="#FF4D8D" fill-opacity=".08" filter="url(#blurLarge)"/>
+    <ellipse cx="1110" cy="410" rx="290" ry="120" fill="#22D3EE" fill-opacity=".07" filter="url(#blurLarge)"/>
   </g>
-  <g transform="translate(92 80)">
-    <text x="0" y="24" fill="#FF7BB8" font-size="15" font-weight="700" letter-spacing="5" class="mono">CODE / CATCH / CREATE</text>
-    <text x="-5" y="153" fill="url(#title)" font-size="122" font-weight="800" letter-spacing="-6" class="sans">TUSHANT</text>
-    <rect x="0" y="188" width="64" height="5" rx="3" fill="url(#accent)"/>
-    <text x="84" y="198" fill="#67E8F9" font-size="20" font-weight="600" letter-spacing="1.3" class="mono">BACKEND ENGINEER + CREATIVE DEVELOPER</text>
-    <text x="0" y="270" fill="#CBD8EA" font-size="24" class="sans">Building reliable systems. Catching clever ideas.</text>
-    <text x="0" y="306" fill="#8292AD" font-size="16" class="mono">INDIA / COMPUTER SCIENCE / ALWAYS LEVELING UP</text>
-    <g transform="translate(0 347)">
-      <rect width="207" height="36" rx="18" fill="#FF4D8D" fill-opacity=".12" stroke="#FF4D8D" stroke-opacity=".28"/>
-      <circle cx="20" cy="18" r="4" fill="#FF7BB8"/>
-      <text x="34" y="23" fill="#FFB5D5" font-size="12" letter-spacing="1.5" class="mono">BUILD. LEARN. EVOLVE.</text>
+  <g opacity=".7">
+    <path d="M0 454C210 414 338 486 548 450S812 396 1002 440" fill="none" stroke="#22D3EE" stroke-opacity=".07" stroke-width="2"/>
+    <path d="M0 486C206 452 350 516 560 482S828 428 1018 472" fill="none" stroke="#A78BFA" stroke-opacity=".06" stroke-width="2"/>
+  </g>
+  <g transform="translate(96 78)">
+    <text x="0" y="24" fill="#FF7AB8" font-size="14" font-weight="700" letter-spacing="5" class="mono">PORTFOLIO / 2026</text>
+    <text x="-6" y="164" fill="url(#titleGradient)" font-size="128" font-weight="800" letter-spacing="-7" class="sans">TUSHANT</text>
+    <rect x="0" y="209" width="72" height="5" rx="3" fill="url(#accent)"/>
+    <text x="94" y="220" fill="#8DEBFF" font-size="19" font-weight="600" letter-spacing="1.2" class="mono">BACKEND ENGINEER × CREATIVE DEVELOPER</text>
+    <text x="0" y="296" fill="#D7E4F2" font-size="27" class="sans">Systems with depth. Interfaces with impact.</text>
+    <text x="0" y="340" fill="#72829D" font-size="15" letter-spacing=".4" class="mono">INDIA / COMPUTER SCIENCE / ALWAYS BUILDING</text>
+    <g transform="translate(0 378)">
+      <rect width="246" height="40" rx="20" fill="#FF4D8D" fill-opacity=".08" stroke="#FF6EA8" stroke-opacity=".24"/>
+      <circle cx="21" cy="20" r="4" fill="#FF6EA8"/>
+      <text x="37" y="25" fill="#FFC2DC" font-size="12" letter-spacing="1.5" class="mono">CODE. CATCH. CREATE.</text>
+    </g>
+    <path d="M0 438H360" stroke="#FFFFFF" stroke-opacity=".07"/>
+    <text x="0" y="468" fill="#4D5C75" font-size="11" letter-spacing="2.2" class="mono">BUILD / LEARN / EVOLVE</text>
+  </g>
+  <g>
+    <ellipse cx="1290" cy="450" rx="340" ry="44" fill="url(#floorGlow)"/>
+    <g fill="none" stroke="#67E8F9" stroke-opacity=".075" stroke-width="1">
+      <path d="M960 420H1600"/>
+      <path d="M920 446H1600"/>
+      <path d="M860 478H1600"/>
+      <path d="M780 516H1600"/>
+      <path d="M1290 410L840 560M1290 410L1030 560M1290 410L1215 560M1290 410L1380 560M1290 410L1510 560M1290 410L1710 560"/>
     </g>
   </g>
-  <g fill="none" stroke="url(#orbit)">
-    <g class="spin">
-      <ellipse cx="1320" cy="260" rx="245" ry="153" transform="rotate(-22 1320 260)" stroke-width="2" opacity=".6"/>
-      <circle cx="1320" cy="107" r="7" fill="#22D3EE" stroke="#D9FAFF" stroke-width="2"/>
-      <circle cx="1542" cy="313" r="6" fill="#FF4D8D" stroke="#FFE1EE" stroke-width="1.5"/>
-      <circle cx="1220" cy="407" r="5" fill="#FBBF24" stroke="#FFF3C4" stroke-width="1.5"/>
-    </g>
-    <g class="spin-fast">
-      <ellipse cx="1320" cy="260" rx="202" ry="202" stroke-width="1.5" stroke-dasharray="4 10" opacity=".46"/>
-      <circle cx="1320" cy="58" r="5" fill="#A78BFA" stroke="#EEE7FF" stroke-width="1.5"/>
-      <circle cx="1522" cy="260" r="5" fill="#FBBF24"/>
-    </g>
-    <ellipse cx="1320" cy="260" rx="168" ry="168" stroke-width="1" opacity=".18"/>
+  <g class="orbit" fill="none" stroke="url(#rim)">
+    <ellipse cx="1290" cy="280" rx="302" ry="128" transform="rotate(-18 1290 280)" stroke-width="2" opacity=".38"/>
+    <ellipse cx="1290" cy="280" rx="274" ry="110" transform="rotate(-18 1290 280)" stroke-width="1.2" stroke-dasharray="3 12" opacity=".24"/>
+    <circle cx="1290" cy="152" r="6" fill="#67E8F9" stroke="#D9FAFF" stroke-width="1.5"/>
+    <circle cx="1538" cy="350" r="5" fill="#FF5EA8" stroke="#FFE4F1" stroke-width="1.2"/>
   </g>
-  <circle class="comet" r="5" fill="#67E8F9" filter="url(#softGlow)"/>
-  <g class="scene">
-    <g transform="translate(1320 260) rotate(8)" filter="url(#shadow)">
-      <circle r="146" fill="#FF4D8D" fill-opacity=".12" filter="url(#softGlow)"/>
-      <circle r="142" fill="url(#topBall)"/>
-      <path d="M-142 0A142 142 0 0 0 142 0Z" fill="url(#bottomBall)"/>
-      <g clip-path="url(#ballClip)">
-        <path d="M-145-12C-68-38 62-44 147-12L147 10C62-21-62-16-145 10Z" fill="#111B31"/>
-        <path d="M-142 0H142" stroke="#F8FCFF" stroke-opacity=".7" stroke-width="2"/>
-        <ellipse cx="-60" cy="-68" rx="55" ry="24" transform="rotate(-28 -60 -68)" fill="#FFFFFF" fill-opacity=".26" class="shine"/>
-        <ellipse cx="58" cy="82" rx="62" ry="17" transform="rotate(-17 58 82)" fill="#FFFFFF" fill-opacity=".2"/>
-      </g>
-      <circle r="142" fill="none" stroke="#FFFFFF" stroke-opacity=".55" stroke-width="3"/>
-      <circle r="45" fill="#0D1729" stroke="#F4FAFF" stroke-width="8"/>
-      <circle r="30" fill="url(#center)" stroke="#A78BFA" stroke-opacity=".5" stroke-width="2" filter="url(#ballShadow)"/>
-      <path d="M-13 0H-3L4-14 13 15 22 1H34" fill="none" stroke="#67E8F9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-      <circle cx="103" cy="-74" r="5" fill="#FFFFFF" fill-opacity=".8"/>
-    </g>
-    <g transform="translate(1180 120) rotate(-12)" filter="url(#shadow)">
-      <g class="buddy electric">
-        <path d="M-22 25C-28 6-16-8 0-9L-7-30 12-14 31-26 25-4C43 6 44 28 29 40L25 59H-24L-27 39C-42 34-47 20-43 10L-59 17-49-2-60-13-39-10-41-23Z" fill="url(#electric)" stroke="#FFE88A" stroke-width="2"/>
-        <circle cx="-10" cy="13" r="4" fill="#172139"/><circle cx="17" cy="13" r="4" fill="#172139"/>
-        <circle cx="5" cy="24" r="4" fill="#E65358"/><path d="M-4 32Q5 38 14 32" fill="none" stroke="#8B4C2B" stroke-width="2" stroke-linecap="round"/>
-        <circle cx="-27" cy="28" r="8" fill="#FF5B63" opacity=".9"/>
-        <path d="M-18-18L-12-34-5-17 4-39 9-15 19-33 20-11Z" fill="url(#electric)" stroke="#FFF29A" stroke-width="2"/>
-        <path d="M-45 17L-57 7M41 12L55 0M-33-7L-46-16" stroke="#FBBF24" stroke-width="4" stroke-linecap="round"/>
-      </g>
-    </g>
-    <g transform="translate(1480 369) rotate(12)" filter="url(#shadow)">
-      <g class="buddy leaf">
-        <path d="M-26 37C-45 22-39-9-17-20C-25-42-1-58 13-40C28-55 48-37 40-17C60 1 47 31 28 40L27 60H-22L-24 42C-38 48-48 51-58 46C-48 35-40 32-26 37Z" fill="#58B98B" stroke="#B7F6C7" stroke-width="2"/>
-        <path d="M-14-18C-30-36-6-51 9-42C20-51 39-34 28-18Z" fill="url(#leaf)"/>
-        <path d="M-4-42L-8-63 4-49 11-67 16-43Z" fill="#71D98E"/>
-        <ellipse cx="-11" cy="7" rx="5" ry="8" fill="#F8FFFF"/><ellipse cx="18" cy="7" rx="5" ry="8" fill="#F8FFFF"/>
-        <circle cx="-9" cy="9" r="2.5" fill="#9E274E"/><circle cx="20" cy="9" r="2.5" fill="#9E274E"/>
-        <path d="M-4 25Q6 33 16 24" fill="none" stroke="#214E49" stroke-width="2.5" stroke-linecap="round"/>
-        <path d="M-36 35L-58 28-48 45Z" fill="#76D89B"/>
+  <circle cx="1290" cy="280" r="300" fill="url(#ambient)"/>
+  <g class="orb-float" filter="url(#shadow)">
+    <circle cx="1290" cy="280" r="238" fill="url(#orbAura)"/>
+    <circle cx="1290" cy="280" r="202" fill="url(#shell)" stroke="#A9BDD4" stroke-opacity=".22" stroke-width="1.5"/>
+    <g clip-path="url(#orbClip)">
+      <path d="M1096 280A194 194 0 0 1 1484 280Z" fill="url(#topMetal)"/>
+      <path d="M1096 280A194 194 0 0 0 1484 280Z" fill="url(#bottomMetal)"/>
+      <path d="M1092 261C1180 247 1398 247 1488 261L1488 299C1398 313 1180 313 1092 299Z" fill="url(#band)"/>
+      <path d="M1096 262C1185 249 1395 249 1484 262" fill="none" stroke="#FFFFFF" stroke-opacity=".42" stroke-width="2"/>
+      <path d="M1096 298C1185 311 1395 311 1484 298" fill="none" stroke="#02050D" stroke-opacity=".72" stroke-width="3"/>
+      <path d="M1132 185C1182 119 1320 92 1424 137" fill="none" stroke="#FFFFFF" stroke-opacity=".72" stroke-width="3" stroke-linecap="round"/>
+      <path d="M1152 205C1208 151 1318 130 1402 163" fill="none" stroke="#FFFFFF" stroke-opacity=".2" stroke-width="13" stroke-linecap="round" filter="url(#blurSmall)"/>
+      <ellipse cx="1212" cy="163" rx="76" ry="23" transform="rotate(-24 1212 163)" fill="#FFFFFF" fill-opacity=".15"/>
+      <ellipse cx="1376" cy="396" rx="83" ry="19" transform="rotate(-16 1376 396)" fill="#FFFFFF" fill-opacity=".22"/>
+      <path d="M1122 337C1198 377 1370 381 1454 337" fill="none" stroke="#07111E" stroke-opacity=".28" stroke-width="4"/>
+      <path d="M1140 448C1222 479 1364 477 1442 442" fill="none" stroke="#67E8F9" stroke-opacity=".34" stroke-width="3" stroke-linecap="round"/>
+      <g class="sheen">
+        <path d="M1050 70L1124 70L1370 490L1296 490Z" fill="url(#sheen)"/>
       </g>
     </g>
-    <g transform="translate(1398 78) scale(.62)" filter="url(#shadow)">
-      <g class="buddy flame">
-        <path d="M-30 41C-51 28-43 0-22-12C-39-35-12-59 4-37C21-58 47-35 31-12C57 4 44 36 22 44L20 65H-19L-21 45C-36 51-47 52-58 47L-45 29-58 18-40 16-44 0-27 3Z" fill="url(#flame)" stroke="#FFD27A" stroke-width="3"/>
-        <ellipse cx="-12" cy="10" rx="5" ry="8" fill="#FFF7D6"/><ellipse cx="17" cy="10" rx="5" ry="8" fill="#FFF7D6"/>
-        <circle cx="-10" cy="12" r="2.5" fill="#442055"/><circle cx="19" cy="12" r="2.5" fill="#442055"/>
-        <path d="M-4 29Q6 37 16 28" fill="none" stroke="#8C2B34" stroke-width="3" stroke-linecap="round"/>
-        <path d="M-3-31C-8-49 7-53 13-68C17-51 30-47 24-30 15-39 6-37-3-31Z" fill="#FFE36B"/>
-      </g>
+    <circle cx="1290" cy="280" r="194" fill="none" stroke="url(#rim)" stroke-opacity=".58" stroke-width="2"/>
+    <circle cx="1290" cy="280" r="188" fill="none" stroke="#FFFFFF" stroke-opacity=".08" stroke-width="1"/>
+    <circle class="core-pulse" cx="1290" cy="280" r="52" fill="#22D3EE"/>
+    <circle cx="1290" cy="280" r="58" fill="#03060D" stroke="url(#rim)" stroke-width="9"/>
+    <circle cx="1290" cy="280" r="47" fill="url(#lens)" stroke="#A5F2FF" stroke-opacity=".42" stroke-width="2"/>
+    <circle cx="1290" cy="280" r="35" fill="#050914" stroke="#FF6EA8" stroke-opacity=".26" stroke-width="1.5"/>
+    <path d="M1273 280H1284L1291 264 1301 296 1310 273 1318 280H1328" fill="none" stroke="#67E8F9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
+    <ellipse cx="1274" cy="252" rx="14" ry="7" transform="rotate(-28 1274 252)" fill="#FFFFFF" fill-opacity=".72"/>
+    <circle cx="1439" cy="180" r="5" fill="#FFFFFF" fill-opacity=".76"/>
+  </g>
+  <g class="orbit-fast" fill="none" stroke="url(#rim)">
+    <path d="M1038 337C1114 441 1432 443 1541 314" stroke-width="2.4" opacity=".72"/>
+    <path d="M1052 226C1122 116 1433 111 1531 228" stroke-width="1.2" stroke-dasharray="4 10" opacity=".32"/>
+    <circle cx="1488" cy="376" r="6" fill="#FBBF24" stroke="#FFF4CC" stroke-width="1.4"/>
+  </g>
+  <circle class="comet" r="5" fill="#A5F2FF" filter="url(#glow)"/>
+  <g>
+    <circle class="bokeh" cx="1070" cy="176" r="7" fill="#67E8F9" opacity=".5" filter="url(#blurSmall)" style="--delay:-1s"/>
+    <circle class="bokeh" cx="1518" cy="158" r="5" fill="#FF6EA8" opacity=".5" filter="url(#blurSmall)" style="--delay:-3s"/>
+    <circle class="bokeh" cx="1562" cy="282" r="8" fill="#A78BFA" opacity=".4" filter="url(#blurSmall)" style="--delay:-5s"/>
+    <circle class="bokeh" cx="1112" cy="418" r="6" fill="#FBBF24" opacity=".4" filter="url(#blurSmall)" style="--delay:-2s"/>
+    <circle class="bokeh" cx="1452" cy="474" r="5" fill="#67E8F9" opacity=".4" filter="url(#blurSmall)" style="--delay:-6s"/>
+    <circle class="bokeh" cx="1208" cy="94" r="4" fill="#FFFFFF" opacity=".4" filter="url(#blurSmall)" style="--delay:-4s"/>
+    <circle class="bokeh" cx="1028" cy="318" r="4" fill="#FF6EA8" opacity=".4" filter="url(#blurSmall)" style="--delay:-7s"/>
+    <g class="glint" stroke="#D9FAFF" stroke-width="1.5" stroke-linecap="round" style="--delay:-1.2s">
+      <path d="M1160 128V144M1152 136H1168"/>
+    </g>
+    <g class="glint" stroke="#FFC2DC" stroke-width="1.3" stroke-linecap="round" style="--delay:-2.8s">
+      <path d="M1512 236V250M1507 243H1517"/>
+    </g>
+    <g class="glint" stroke="#FFF4CC" stroke-width="1.2" stroke-linecap="round" style="--delay:-.4s">
+      <path d="M1084 370V380M1079 375H1089"/>
     </g>
   </g>
-  <g filter="url(#softGlow)">
-    <circle class="spark" cx="1098" cy="184" r="6" fill="#22D3EE"/>
-    <circle class="spark two" cx="1518" cy="183" r="5" fill="#FF4D8D"/>
-    <circle class="spark three" cx="1160" cy="404" r="5" fill="#FBBF24"/>
-  </g>
-  <path d="M1070 437C1165 478 1460 471 1545 427" fill="none" stroke="#22D3EE" stroke-opacity=".16" stroke-width="18" filter="url(#softGlow)"/>
-  <text x="1500" y="478" text-anchor="end" fill="#8292AD" font-size="12" letter-spacing="2" class="mono">NEXT ADVENTURE / READY</text>
-  <rect x="1" y="1" width="1598" height="518" rx="29" fill="none" stroke="#FFFFFF" stroke-opacity=".08"/>
+  <text x="1504" y="522" text-anchor="end" fill="#52627C" font-size="11" letter-spacing="2.2" class="mono">DEPTH / MOTION / PRECISION</text>
+  <rect x="1" y="1" width="1598" height="558" rx="31" fill="none" stroke="#FFFFFF" stroke-opacity=".07"/>
 </svg>

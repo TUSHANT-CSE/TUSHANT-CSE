@@ -1,9 +1,5 @@
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/TUSHANT-CSE/TUSHANT-CSE/main/assets/header-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/TUSHANT-CSE/TUSHANT-CSE/main/assets/header-light.svg">
-    <img src="https://raw.githubusercontent.com/TUSHANT-CSE/TUSHANT-CSE/main/assets/header-dark.svg" width="100%" alt="Tushant — Backend engineer and creative developer, with an animated Pokéball-inspired hero and elemental companions">
-  </picture>
+  <img src="https://raw.githubusercontent.com/TUSHANT-CSE/TUSHANT-CSE/main/assets/header-dark.svg" width="100%" alt="Tushant — Backend engineer and creative developer, with a cinematic metallic energy sphere and atmospheric animation">
 </p>
 
 <p align="center">
