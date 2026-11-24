@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/TUSHANT-CSE/TUSHANT-CSE/main/assets/header-dark.svg" width="100%" alt="Tushant — Backend engineer and creative developer, with a cinematic metallic energy sphere and atmospheric animation">
+  <img src="https://raw.githubusercontent.com/TUSHANT-CSE/TUSHANT-CSE/main/assets/header-dark.svg?v=3a49000" width="100%" alt="Tushant — Backend engineer and creative developer, with a cinematic metallic energy sphere and atmospheric animation">
 </p>
 
 <p align="center">
